@@ -6,62 +6,124 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>493</width>
-    <height>272</height>
+    <width>641</width>
+    <height>281</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI Light</family>
+   </font>
   </property>
   <property name="windowTitle">
    <string>ElektronSkeem</string>
   </property>
-  <property name="autoFillBackground">
-   <bool>false</bool>
-  </property>
-  <property name="styleSheet">
-   <string notr="true">QMainWindow{border-image: url(:/Images/download.jpg) 0 0 0 0 stretch stretch;}
-
-
-</string>
-  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="InputTextBox">
-    <property name="geometry">
-     <rect>
-      <x>9</x>
-      <y>15</y>
-      <width>133</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="whatsThis">
-     <string>Elektronide arv</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QTextBrowser" name="OutputTextBox">
     <property name="geometry">
      <rect>
-      <x>148</x>
-      <y>15</y>
-      <width>331</width>
-      <height>211</height>
+      <x>220</x>
+      <y>0</y>
+      <width>421</width>
+      <height>281</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Segoe UI Semilight&quot;;</string>
+    </property>
    </widget>
-   <widget class="QPushButton" name="Button">
+   <widget class="QLineEdit" name="InputTextBox">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>50</y>
-      <width>81</width>
-      <height>23</height>
+      <y>10</y>
+      <width>201</width>
+      <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semilight</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Elektronide arv</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LaoLagedaleButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>190</y>
+      <width>111</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semilight</family>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Lao Lagedale!</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="ThjendaButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>220</y>
+      <width>91</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Semilight</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tühjenda</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Vinne">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>251</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/Images/download.jpg);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Hall">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(214, 214, 214);</string>
+    </property>
+   </widget>
+   <zorder>Hall</zorder>
+   <zorder>Vinne</zorder>
+   <zorder>OutputTextBox</zorder>
+   <zorder>InputTextBox</zorder>
+   <zorder>LaoLagedaleButton</zorder>
+   <zorder>ThjendaButton</zorder>
   </widget>
  </widget>
  <resources>

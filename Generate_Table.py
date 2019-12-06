@@ -240,6 +240,3 @@ def create_square_scheme(orbitals: list, highest_shell: int, orbital_values:dict
         count += 1
     return square_print_values
 
-
-# 2 78 79 55
-

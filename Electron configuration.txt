@@ -1,9 +1,9 @@
-Element electron configuration: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^5
-Electrons in last electron shell is 7
+Element electron configuration: 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^10 4p^2
+Electrons in last electron shell is 4
 Number of electron shells is  4
 Element kind is p
-                        [↑↓][↑↓][↑ ]
-                            4p^5
+                        [↑ ][↑ ][  ]
+                            4p^2
     [↑↓][↑↓][↑↓][↑↓][↑↓]
            3d^10
 [↑↓]
