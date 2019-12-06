@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>641</width>
-    <height>281</height>
+    <width>644</width>
+    <height>309</height>
    </rect>
   </property>
   <property name="font">
@@ -27,6 +27,12 @@
       <width>421</width>
       <height>281</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 10pt &quot;Segoe UI Semilight&quot;;</string>

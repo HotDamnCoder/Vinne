@@ -4,13 +4,9 @@
     <list default="true" id="02f7e0da-5d5a-4e7c-9fe8-fb299dd5a832" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Electron configuration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Electron configuration.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generate_Table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Generate_Table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UI.ui" beforeDir="false" afterPath="$PROJECT_DIR$/UI.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vinne.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vinne.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fyysika.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/resources.qrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources_rc.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources_rc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,8 +89,16 @@
       <workItem from="1575476480493" duration="11726000" />
       <workItem from="1575572984494" duration="600000" />
       <workItem from="1575634870628" duration="1807000" />
-      <workItem from="1575656050117" duration="9754000" />
+      <workItem from="1575656050117" duration="11747000" />
     </task>
+    <task id="LOCAL-00001" summary="UI improvements">
+      <created>1575667030940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575667030940</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,8 +117,12 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UI improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI improvements" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Vinne$Vinne.coverage" NAME="Vinne Coverage Results" MODIFIED="1575667003332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Vinne$Vinne.coverage" NAME="Vinne Coverage Results" MODIFIED="1575668980989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Vinne$vinne.coverage" NAME="Vinne Coverage Results" MODIFIED="1575491266939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Vinne$Unnamed.coverage" NAME="vinne Coverage Results" MODIFIED="1575476191799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

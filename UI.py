@@ -8,13 +8,12 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-import resources_rc
+
 
 class Ui_MainWindow(object):
-
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(641, 281)
+        MainWindow.resize(644, 309)
         font = QtGui.QFont()
         font.setFamily("Segoe UI Light")
         MainWindow.setFont(font)
@@ -22,6 +21,11 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName("centralwidget")
         self.OutputTextBox = QtWidgets.QTextBrowser(self.centralwidget)
         self.OutputTextBox.setGeometry(QtCore.QRect(220, 0, 421, 281))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Ignored, QtWidgets.QSizePolicy.Ignored)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.OutputTextBox.sizePolicy().hasHeightForWidth())
+        self.OutputTextBox.setSizePolicy(sizePolicy)
         self.OutputTextBox.setStyleSheet("font: 10pt \"Segoe UI Semilight\";")
         self.OutputTextBox.setObjectName("OutputTextBox")
         self.InputTextBox = QtWidgets.QLineEdit(self.centralwidget)
@@ -71,4 +75,4 @@ class Ui_MainWindow(object):
         self.InputTextBox.setPlaceholderText(_translate("MainWindow", "Elektronide arv"))
         self.LaoLagedaleButton.setText(_translate("MainWindow", "Lao Lagedale!"))
         self.ThjendaButton.setText(_translate("MainWindow", "Tühjenda"))
-
+import resources_rc
