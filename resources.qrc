@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="Images">
+    <file>download.jpg</file>
+    <file>fyysika.png</file>
+  </qresource>
+</RCC>
