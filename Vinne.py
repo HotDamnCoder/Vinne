@@ -50,7 +50,6 @@ class MainW (QMainWindow, Ui_MainWindow):
             self.InputTextBox.setText("")
 
 
-
 app = QApplication(sys.argv)
 win = MainW()
 qtmodern.styles.dark(app)
